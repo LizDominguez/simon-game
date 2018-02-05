@@ -1,0 +1,50 @@
+/*Mobile First*/
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat|Rajdhani');
+
+html, body {
+  margin: 0;
+  padding: 0; 
+}
+
+.game-board {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-board div {
+  height: 50%;
+  width: 50%;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: left;
+  width: 100vw;
+  height: 15vh;
+  background-color: #111;
+}
+
+.controls div {
+  padding: 2%;
+}
+
+.controls div img {
+  height: 50px;
+  cursor: pointer;
+}
+
+#play img{
+  height: 70px;
+}
+
+#count {
+  color: white;
+  height: 30px;
+  width: 40px;
+  background-color: #000;
+}
